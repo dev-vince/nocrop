@@ -1,0 +1,16 @@
+[
+{
+  "modid": "nocrop",
+  "name": "No Crop",
+  "description": "Prevents you from breaking crops when you swing at them",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["dev-vince"],
+  "credits": "https://t.me/DevVince",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
