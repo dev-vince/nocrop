@@ -14,7 +14,7 @@ public abstract class AbstractBlockHandler {
     public abstract void execute(final BlockEvent.BreakEvent event);
 
     protected void cancelBreak(final BlockEvent.BreakEvent event) {
-        ChatUtil.addChatMessage("A feature has prevented you from breaking " + this.block.getLocalizedName() + "!");
+        ChatUtil.addChatMessage("A feature has prevented you from breaking " + this.block.getRegistryName() + "!");
         event.setCanceled(true);
     }
 }
