@@ -8,7 +8,7 @@ import net.minecraft.util.ChatComponentText;
 public final class ChatUtil {
     private ChatUtil() {}
 
-    private static final String PREFIX = ChatFormatting.DARK_PURPLE + "[" + ChatFormatting.BOLD + ChatFormatting.AQUA + NoCropMod.MODID + ChatFormatting.RESET + ChatFormatting.DARK_PURPLE + "]" + ChatFormatting.AQUA + " ";
+    private static final String PREFIX = ChatFormatting.WHITE + "[" + ChatFormatting.BOLD + ChatFormatting.AQUA + NoCropMod.MODID + ChatFormatting.RESET + ChatFormatting.WHITE + "]" + ChatFormatting.GRAY + " ";
 
     public static void addChatMessage(final String message) {
         Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentText(PREFIX + message));

@@ -67,6 +67,9 @@ processResources
     inputs.property "version", project.version
     inputs.property "mcversion", project.minecraft.version
 
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
     // replace stuff in mcmod.info, nothing else
     from(sourceSets.main.resources.srcDirs) {
         include 'mcmod.info'
